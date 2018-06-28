@@ -50,6 +50,8 @@
   <ItemGroup>
     <Compile Include="Send.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SendHelloWorld.cs" />
+    <Compile Include="SendNewTask.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -7,20 +7,14 @@ namespace Common
     /// </summary>
     public class MessageEnCoder
     {
-        public static object CodeMessage(string message, string key)
+        public static byte[] CodeMessage(string message)
         {
-            if(key == RoutingKeys.HelloChannel)
-               return Encoding.UTF8.GetBytes(message);
-
-            return null;
+            return Encoding.UTF8.GetBytes(message);
         }
 
-        public static object DecodeMessage(byte[] body, string key)
+        public static string DecodeMessage(byte[] body)
         {
-            if (key == RoutingKeys.HelloChannel)
-                return Encoding.UTF8.GetString(body);
-
-            return null;
+            return Encoding.UTF8.GetString(body);
         }
     }
 }

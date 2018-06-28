@@ -9,6 +9,7 @@ namespace Common
     public class RoutingKeys
     {
         public static string HelloChannel = "hello";
+        public static string TaskQueue = "task_queue";
     }
 
 

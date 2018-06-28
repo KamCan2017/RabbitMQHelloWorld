@@ -50,6 +50,8 @@
   <ItemGroup>
     <Compile Include="Receive.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReceiveHelloWorld.cs" />
+    <Compile Include="ReceiveWorker.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
